@@ -4,8 +4,8 @@ const id = Joi.string().uuid();
 const name = Joi.string()
 
 
-const getStudentsSchema = Joi.object({
+const getStudentSchema = Joi.object({
   id: id.required(),
 });
 
-module.exports = { getStudentsSchema }
+module.exports = { getStudentSchema }
