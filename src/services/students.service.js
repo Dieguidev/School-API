@@ -1,3 +1,5 @@
+const boom = require('@hapi/boom');
+
 class StudentsService {
 
   constructor(){
@@ -5,7 +7,8 @@ class StudentsService {
   }
 
   async getAllStudents(){
-
+    //para errores
+    //throw boom.notFound('product not found')
   }
 
 }
